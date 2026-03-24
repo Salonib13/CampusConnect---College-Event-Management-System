@@ -21,7 +21,7 @@ router.get("/events", (req, res) => {
   });
 });
 
-// UPDATE EVENT STATUS
+//update event status
 router.put("/events/:id", (req, res) => {
   const { status } = req.body;
   const eventId = req.params.id;
@@ -33,7 +33,7 @@ router.put("/events/:id", (req, res) => {
   });
 });
 
-// REGISTER FOR EVENT
+// register for event
 router.post("/register-event", (req, res) => {
   const { student_id, event_id } = req.body;
 
@@ -44,7 +44,7 @@ router.post("/register-event", (req, res) => {
   });
 });
 
-// VIEW STUDENTS FOR EVENT
+// view student
 router.get("/events/:id/students", (req, res) => {
   const eventId = req.params.id;
 
