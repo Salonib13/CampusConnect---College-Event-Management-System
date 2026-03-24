@@ -1,0 +1,20 @@
+body {
+  background-color: #eef2f7;
+}
+
+.container-box {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+}
+
+.dashboard-container {
+  padding: 30px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
